@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title></title>
+    </head>
+    <body>
+        <div id="main-container">
+            <div class="top-row">
+                <div class="left-col">
+                    <div class="top-row-text-box">
+                        <p class="i-am">I am</p>
+                        <h1>Dennis Mgbah</h1>
+                        <p class="career">Software Developer</p>
+                        <a href="#hire-me"><button type="button">Hire Me</button></a>
+                    </div>
+                    <div class="media-connect">
+                        <p>Check me out</p>
+                        <div class="media">
+                            <a href="#"><img src="assets/img/twitter.png" alt=""></a>
+                            <a href="#"><img src="assets/img/facebook.png" alt=""></a>
+                            <a href="https://github.com/Den-D-dev" target="_blank"><img src="assets/img/github.png" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="right-col">
+                    <img src="assets/img/dennis.jpg" alt="Dennis' profile picture">
+                </div>
+            </div>
+
+        <!-- tab -->
+            <div id="accordion" class="profile-data" onClick="clickedPanel()"> <!--main contianer-->
+
+                <div class="panel tabcontent">
+                  <p class="header">Bio</p>
+                  <p class="body">
+                      My name is Dennis Oluchukwu, Mgbah. I am from Umuoji in Anambra state,
+                      born on the 24th of June in early 90's. Currently, I live at 8 Ilare
+                      close Mafokulu Oshodi, Lagos state. I am an intern at start.ng, you
+                      can find me on slack as <strong>Dennis</strong>
+                  </p>
+                </div>
+
+                <div class="panel tabcontent">
+                  <p class="header">Summary</p>
+                  <p class="body">
+                      Highly motivated and innovative web developer with working knowledge of both
+                      client and server-side languages. I have programming knowledge which is enhanced
+                      by constant research and personal development and learning. I enjoy being part
+                      of a productive team and I am very open to learning new things and developing myself. <br><br>
+
+                      My hobbies include: Reading, gaming, and cooking.
+                  </p>
+                </div>
+
+                <div class="panel tabcontent">
+                  <p class="header">Soft Skills</p>
+                  <p class="body">Communication, Leadership, Organizational skills, Resourceful, Adaptable, Team Spirit</p>
+                </div>
+
+                <div class="panel tabcontent">
+                  <p class="header">Technical Skills interest</p>
+                  <p class="body">HTML, CSS, Sass, Bootstrap, jQuery, JavaScript, Vue.js, PHP, MSQL, Laravel and S.E.O</p>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="form" id="hire-me">
+                    <form action="">
+                        <p>Send me a message</p>
+                        <div class="form-fields">
+                            <label for="fname">Name</label>
+                            <input type="text" name="name" placeholder="Your name..">
+
+                            <label for="lname">Email</label>
+                            <input type="email" name="email" placeholder="Your email ..">
+
+                            <label for="subject">Message</label>
+                            <textarea name="message" placeholder="Write something.." style="height:200px"></textarea>
+                        </div>
+                        <input id="submit" type="submit" value="Submit">
+                    </form>
+                </div>
+
+                <div class="contact-col">
+                    <div class="contact-detail">
+                        <p class="contact-me-header">You can also contact me via:</p>
+                        <div class="icop">
+                            <img src="assets/img/message.png" alt="">
+                            <p>macdehnis301@gmail.com</p>
+                        </div>
+                        <div class="icop">
+                            <img src="assets/img/phone.png" alt="">
+                            <p>08138156340</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="assets/js/script.js"></script>
+    </body>
+</html>
