@@ -6,7 +6,7 @@ body {
     background-image: linear-gradient(to right, #ffffff, #f1f2f2, #e3e5e5, #d5d8d7, #cacbc8);
 }
 
-#main-container {
+#mainContainer {
     /* width: 80%; */
     height: auto;
     margin: 5% 6%;
@@ -123,6 +123,7 @@ body {
     padding: 2px 15px; margin-bottom: 15px;
     box-shadow: 2px 4px 10px 0 rgba(2,2,2,0.1);
 	border-radius: 4px;
+    cursor: pointer;
 }
 
 #accordion .header {
@@ -210,4 +211,29 @@ input, textarea {
 .icop p {
     margin-left: 10px;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+    .right-col img {
+        width: 230px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .top-row, .contact {
+        flex-direction: column-reverse;
+    }
+
+    .left-col, .right-col, .contact-detail  {
+        width: 100%;
+    }
+
+    .media-connect p, .right-col, .contact-detail {
+        margin-left: 18%;
+    }
+
+    .form, .contact-col {
+        width: 84%;
+    }
 }
